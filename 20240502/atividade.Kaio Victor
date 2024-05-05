@@ -1,0 +1,32 @@
+Algoritmo "TENTATIVA2"
+// 
+//  
+// Descri��o   : CALCULAR MEDIA DO ALUNO
+// Autor(a)    : KAIO VICTOR AQUINO LIMA
+// Data atual  : 05/05/2024
+Var
+
+ nota1, nota2, nota3, media: real
+ aluno: caracter
+
+Inicio
+
+ escreva("Digite o nome do aluno: ")
+  leia (aluno)
+  
+ escreva("Digite a primeira nota: ")
+  leia(nota1)
+ escreva("Digite a segunda nota: ")
+  leia(nota2)
+ escreva("Digite a terceira nota: ")
+  leia(nota3)
+  
+ media <- (nota1+ nota2+ nota3) / 3
+  escreva (" A Media �: ", media)
+ se media >=7 entao
+  escreva("O Aluno: " ,aluno, " passou!!!")
+ senao
+  escreva("O Aluno: " ,aluno, " reprovou!!!")
+ fimse
+
+Fimalgoritmo
